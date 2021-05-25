@@ -479,10 +479,7 @@ fieldset[disabled] .btn-theme {
   color: #777984;
   margin-bottom: 15px;
 }
-.footer .footer-list-item:last-child,
-.header .navbar {
-  margin-bottom: 0;
-}
+
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
 }
@@ -555,7 +552,7 @@ fieldset[disabled] .btn-theme {
   background: rgba(81, 87, 105, 0);
 }
 .header .logo {
-  width: 150px;
+  width: 190px;
   height: 150px;
   float: left;
   max-height: 95px;
@@ -566,20 +563,25 @@ fieldset[disabled] .btn-theme {
   padding: 15px 0;
 }
 .header .logo-img {
+  font-family: "Dancing Script";
+  font-weight: bold;
+  font-size: 4rem;
   display: inline-block;
-  width: 146px;
+  width: 190px;
   height: auto;
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
 }
 .header .logo-img-main {
+  color: white;
   display: inline-block;
   transition-duration: 0.4s;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 .header .logo-img-active {
+  color: #515769;
   display: none;
   transition-duration: 0.4s;
   transition-property: all;
@@ -595,9 +597,7 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 0;
   list-style: none;
 }
-.header .nav-item:last-child .nav-item-child {
-  padding-right: 0;
-}
+
 .header .nav-item .nav-item-hover.active:after,
 .header .nav-item:hover .nav-item-hover:after {
   opacity: 1;
@@ -618,7 +618,7 @@ fieldset[disabled] .btn-theme {
   letter-spacing: 0.02em;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
   line-height: 55px;
-  padding: 20px;
+  padding: 20px calc(5px + 0.5vw);
   transition-duration: 0.3s;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -632,11 +632,11 @@ fieldset[disabled] .btn-theme {
 }
 .header .nav-item-child:hover,
 .page-on-scroll .header .nav-item-child:hover {
-  color: #ff0000;
+  color: #fd871f;
   transition-duration: 0.4s;
 }
 .header .nav li.active .nav-item-child {
-  color: #ff0000;
+  color: #fd871f;
 }
 @media (max-width: 991px) {
   .header {
@@ -702,6 +702,12 @@ fieldset[disabled] .btn-theme {
   }
   .header .navbar > .container {
     width: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: white;
   }
 }
 @media (min-width: 992px) {
@@ -1257,6 +1263,7 @@ fieldset[disabled] .btn-theme {
 .height-300 {
   height: 300px !important;
 }
+
 .language-switcher {
   float: right;
   margin-top: 10px;
@@ -1273,7 +1280,7 @@ fieldset[disabled] .btn-theme {
 }
 .nav-lang li a.active,
 .nav-lang li a:hover {
-  color: #ff0000 !important;
+  color: #fd871f !important;
 }
 .header .nav-lang li {
   border-right: 1px solid #ffffff;
@@ -1299,9 +1306,7 @@ fieldset[disabled] .btn-theme {
 .page-on-scroll .header .nav-item-child {
   padding-bottom: 0px !important;
 }
-.page-on-scroll .header .logo {
-  max-height: 75px !important;
-}
+
 .page-on-scroll .header .logo-wrap {
   padding-bottom: 0px;
   padding-top: 10px;
@@ -1310,4 +1315,31 @@ fieldset[disabled] .btn-theme {
   font-family: "FontAwesome";
   content: "\f105";
   padding-left: 10px;
+}
+.flex-row {
+  display: flex;
+}
+.flex-row > * {
+  margin: auto;
+}
+.header {
+  background-color: #0006;
+}
+.logo-footer {
+  font-family: "Dancing Script";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #515769;
+}
+
+#special {
+  color: white;
+  background-color: #515769;
+  padding: 0 calc(5px + 0.5vw);
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+#special:hover {
+  background-color: #fd871f;
 }

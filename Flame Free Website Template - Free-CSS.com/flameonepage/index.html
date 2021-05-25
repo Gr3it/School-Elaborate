@@ -38,9 +38,13 @@
     />
     <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Dancing+Script"
+    />
   </head>
 
-  <body id="body" data-spy="scroll" data-target=".header">
+  <body id="body" class="body" data-spy="scroll" data-target=".header">
     <header class="header navbar-fixed-top">
       <nav class="navbar" role="navigation">
         <div class="container">
@@ -57,16 +61,8 @@
 
             <div class="logo">
               <a class="logo-wrap" href="#body">
-                <img
-                  class="logo-img logo-img-main"
-                  src="img/logo.png"
-                  alt="FlameOnePage Logo"
-                />
-                <img
-                  class="logo-img logo-img-active"
-                  src="img/logo-dark.png"
-                  alt="FlameOnePage Dark Logo"
-                />
+                <div class="logo-img logo-img-main">Hotel Meano</div>
+                <div class="logo-img logo-img-active">Hotel Meano</div>
               </a>
             </div>
           </div>
@@ -74,38 +70,44 @@
           <div class="collapse navbar-collapse nav-collapse">
             <div class="menu-container">
               <ul class="nav navbar-nav navbar-nav-right">
-                <li class="js_nav-item nav-item">
+                <!-- <li class="js_nav-item nav-item">
                   <a class="nav-item-child nav-item-hover" href="#body">Home</a>
-                </li>
+                </li> -->
                 <li class="js_nav-item nav-item">
                   <a class="nav-item-child nav-item-hover" href="#about"
-                    >Team</a
+                    >Attività</a
                   >
                 </li>
                 <li class="js_nav-item nav-item">
-                  <a class="nav-item-child nav-item-hover" href="#services"
-                    >Services</a
+                  <a class="nav-item-child nav-item-hover" href="#about2"
+                    >Perche Noi</a
                   >
                 </li>
                 <li class="js_nav-item nav-item">
                   <a class="nav-item-child nav-item-hover" href="#products"
-                    >Products</a
-                  >
-                </li>
-                <li class="js_nav-item nav-item">
-                  <a class="nav-item-child nav-item-hover" href="#work"
-                    >Credentials</a
+                    >Proposte</a
                   >
                 </li>
                 <li class="js_nav-item nav-item">
                   <a class="nav-item-child nav-item-hover" href="#pricing"
-                    >Pricing</a
+                    >Prezzi</a
+                  >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#work"
+                    >Galleria</a
                   >
                 </li>
                 <li class="js_nav-item nav-item">
                   <a class="nav-item-child nav-item-hover" href="#contact"
-                    >Contact</a
+                    >Informazioni</a
                   >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" id="special" href=""
+                    >Prenota Ora</a
+                  >
+                  </div>
                 </li>
               </ul>
             </div>
@@ -273,7 +275,7 @@
         <!-- End Masonry Grid -->
       </div>
 
-      <div class="bg-color-sky-light">
+      <div id="about2" class="bg-color-sky-light">
         <div class="content-lg container">
           <div class="row">
             <div class="col-md-5 col-sm-5 md-margin-b-60">
@@ -586,12 +588,7 @@
         <div class="content-md container">
           <div class="row margin-b-40">
             <div class="col-sm-6">
-              <h2>Portfolio</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                tempor incididunt ut laboret dolore magna aliqua enim minim
-                veniam exercitation
-              </p>
+              <h2>Galeria Fotografica</h2>
             </div>
           </div>
           <!--// end row -->
@@ -610,73 +607,29 @@
                 <div class="work-overlay">
                   <img
                     class="full-width img-responsive"
-                    src="img/397x300/01.jpg"
+                    src="img/gallery/1.jpg"
                     alt="Portfolio Image"
                   />
                 </div>
                 <div class="work-popup-overlay">
                   <div class="work-popup-content">
                     <a href="javascript:void(0);" class="work-popup-close"
-                      >Hide</a
+                      >Chiudi</a
                     >
                     <div class="margin-b-30">
-                      <h3 class="margin-b-5">Art Of Coding</h3>
-                      <span>Clean &amp; Minimalistic Design</span>
+                      <h3 class="margin-b-5">Cafè</h3>
+                      <span>Design moderno &amp; naturale</span>
                     </div>
-                    <div class="row">
-                      <div
-                        class="
-                          col-sm-8
-                          work-popup-content-divider
-                          sm-margin-b-20
-                        "
-                      >
+                    <div class="margin-t-5">
+                      <div class="sm-margin-b-20">
                         <div class="margin-t-10 sm-margin-t-0">
                           <p>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud.
-                          </p>
-                          <ul class="list-inline work-popup-tag">
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Strategy,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Implementation,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Credentials</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="margin-t-10 sm-margin-t-0">
-                          <p class="margin-b-5">
-                            <strong>Project Manager:</strong> Boris Becker
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Executive:</strong> Heike Macatsch
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Architect:</strong> Oliver Pocher
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Client:</strong> FairTech
+                            Prenditi una pausa cafè nel nostro nuovissimo cafè
+                            bar costruito a posta per vuoi tenendo in mente un
+                            design sobrio e dai coloro riconducibili alle alpi.
+                            Posto perfetto per farsi una pausa tra le varie
+                            attività per conoscere nuove per persone e
+                            divertirsi tutti assieme
                           </p>
                         </div>
                       </div>
@@ -698,73 +651,28 @@
                 <div class="work-overlay">
                   <img
                     class="full-width img-responsive"
-                    src="img/397x300/02.jpg"
+                    src="img/gallery/2.jpg"
                     alt="Portfolio Image"
                   />
                 </div>
                 <div class="work-popup-overlay">
                   <div class="work-popup-content">
                     <a href="javascript:void(0);" class="work-popup-close"
-                      >Hide</a
+                      >Chiudi</a
                     >
                     <div class="margin-b-30">
-                      <h3 class="margin-b-5">Art Of Coding</h3>
-                      <span>Clean &amp; Minimalistic Design</span>
+                      <h3 class="margin-b-5">Camere</h3>
+                      <span>Design moderno &amp; naturale</span>
                     </div>
-                    <div class="row">
-                      <div
-                        class="
-                          col-sm-8
-                          work-popup-content-divider
-                          sm-margin-b-20
-                        "
-                      >
+                    <div class="margin-t-5">
+                      <div class="sm-margin-b-20">
                         <div class="margin-t-10 sm-margin-t-0">
                           <p>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud.
-                          </p>
-                          <ul class="list-inline work-popup-tag">
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Strategy,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Implementation,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Credentials</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="margin-t-10 sm-margin-t-0">
-                          <p class="margin-b-5">
-                            <strong>Project Manager:</strong> Boris Becker
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Executive:</strong> Heike Macatsch
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Architect:</strong> Oliver Pocher
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Client:</strong> Keenthemes
+                            Scopri le nostre camere eleganti e spaziose,
+                            provviste di bagno in camera, balcone privato e
+                            tanto altro. In ogni camera sarà presente una
+                            postazione computer tv per potere guardarsi qualche
+                            film di sera dopo una lunga e faticosa giornata
                           </p>
                         </div>
                       </div>
@@ -780,73 +688,28 @@
                 <div class="work-overlay">
                   <img
                     class="full-width img-responsive"
-                    src="img/397x300/03.jpg"
+                    src="img/gallery/3.jpg"
                     alt="Portfolio Image"
                   />
                 </div>
                 <div class="work-popup-overlay">
                   <div class="work-popup-content">
                     <a href="javascript:void(0);" class="work-popup-close"
-                      >Hide</a
+                      >Chiudi</a
                     >
                     <div class="margin-b-30">
-                      <h3 class="margin-b-5">Art Of Coding</h3>
-                      <span>Clean &amp; Minimalistic Design</span>
+                      <h3 class="margin-b-5">Terrazza</h3>
+                      <span>Design moderno &amp; naturale</span>
                     </div>
-                    <div class="row">
-                      <div
-                        class="
-                          col-sm-8
-                          work-popup-content-divider
-                          sm-margin-b-20
-                        "
-                      >
+                    <div class="margin-t-5">
+                      <div class="sm-margin-b-20">
                         <div class="margin-t-10 sm-margin-t-0">
                           <p>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud.
-                          </p>
-                          <ul class="list-inline work-popup-tag">
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Strategy,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Implementation,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Credentials</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="margin-t-10 sm-margin-t-0">
-                          <p class="margin-b-5">
-                            <strong>Project Manager:</strong> Boris Becker
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Executive:</strong> Heike Macatsch
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Architect:</strong> Oliver Pocher
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Client:</strong> Keenthemes
+                            Goditi la meravigliosa vista della valle mentre
+                            consumi un buon pasto nella nostra meravigliosa
+                            terrazza. Riscaldata con dei focoloai di invero e
+                            decorata con molte piante per mantenere il tema
+                            alpino
                           </p>
                         </div>
                       </div>
@@ -865,73 +728,28 @@
                 <div class="work-overlay">
                   <img
                     class="full-width img-responsive"
-                    src="img/397x415/01.jpg"
+                    src="img/gallery/4.jpg"
                     alt="Portfolio Image"
                   />
                 </div>
                 <div class="work-popup-overlay">
                   <div class="work-popup-content">
                     <a href="javascript:void(0);" class="work-popup-close"
-                      >Hide</a
+                      >Chiudi</a
                     >
                     <div class="margin-b-30">
-                      <h3 class="margin-b-5">Art Of Coding</h3>
-                      <span>Clean &amp; Minimalistic Design</span>
+                      <h3 class="margin-b-5">Sale Relax</h3>
+                      <span>Design moderno &amp; naturale</span>
                     </div>
-                    <div class="row">
-                      <div
-                        class="
-                          col-sm-8
-                          work-popup-content-divider
-                          sm-margin-b-20
-                        "
-                      >
+                    <div class="margin-t-5">
+                      <div class="sm-margin-b-20">
                         <div class="margin-t-10 sm-margin-t-0">
                           <p>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud.
-                          </p>
-                          <ul class="list-inline work-popup-tag">
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Strategy,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Implementation,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Credentials</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="margin-t-10 sm-margin-t-0">
-                          <p class="margin-b-5">
-                            <strong>Project Manager:</strong> Boris Becker
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Executive:</strong> Heike Macatsch
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Architect:</strong> Oliver Pocher
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Client:</strong> FairTech
+                            Rilassati nelle nostre sale relax per rilasciare
+                            tutto lo stress accumulato durante la giornata.
+                            Nostro staff professionista sarà lieto di
+                            accogliervi e con massaggi orientali rilassare il
+                            vostro corpo
                           </p>
                         </div>
                       </div>
@@ -948,74 +766,28 @@
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
                   <img
-                    class="full-width img-responsive"
-                    src="img/800x400/01.jpg"
+                    class="full-width img-responsive height50p"
+                    src="img/gallery/5.jpg"
                     alt="Portfolio Image"
                   />
                 </div>
+
                 <div class="work-popup-overlay">
                   <div class="work-popup-content">
                     <a href="javascript:void(0);" class="work-popup-close"
-                      >Hide</a
+                      >Chiudi</a
                     >
                     <div class="margin-b-30">
-                      <h3 class="margin-b-5">Art Of Coding</h3>
-                      <span>Clean &amp; Minimalistic Design</span>
+                      <h3 class="margin-b-5">Piscina SPA</h3>
+                      <span>Design moderno &amp; naturale</span>
                     </div>
-                    <div class="row">
-                      <div
-                        class="
-                          col-sm-8
-                          work-popup-content-divider
-                          sm-margin-b-20
-                        "
-                      >
+                    <div class="margin-t-5">
+                      <div class="sm-margin-b-20">
                         <div class="margin-t-10 sm-margin-t-0">
                           <p>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud.
-                          </p>
-                          <ul class="list-inline work-popup-tag">
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Strategy,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Implementation,</a
-                              >
-                            </li>
-                            <li class="work-popup-tag-item">
-                              <a class="work-popup-tag-link" href="#"
-                                >Credentials</a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="margin-t-10 sm-margin-t-0">
-                          <p class="margin-b-5">
-                            <strong>Project Manager:</strong> Boris Becker
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Executive:</strong> Heike Macatsch
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Architect:</strong> Oliver Pocher
-                          </p>
-                          <p class="margin-b-5">
-                            <strong>Client:</strong> FairTech
+                            Anche quando fuori fa brutto tempo ti puoi sempre
+                            rilassare all'interno della nostra SPA, provvista di
+                            ogni confort possibile.
                           </p>
                         </div>
                       </div>
@@ -1029,181 +801,8 @@
           <!-- End Masonry Grid -->
         </div>
       </div>
-
-      <!-- Clients -->
-      <div class="content-lg container">
-        <!-- Swiper Clients -->
-        <div class="swiper-slider swiper-clients">
-          <!-- Swiper Wrapper -->
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img
-                class="swiper-clients-img"
-                src="img/clients/01.png"
-                alt="Clients Logo"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="swiper-clients-img"
-                src="img/clients/02.png"
-                alt="Clients Logo"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="swiper-clients-img"
-                src="img/clients/03.png"
-                alt="Clients Logo"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="swiper-clients-img"
-                src="img/clients/04.png"
-                alt="Clients Logo"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="swiper-clients-img"
-                src="img/clients/05.png"
-                alt="Clients Logo"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="swiper-clients-img"
-                src="img/clients/06.png"
-                alt="Clients Logo"
-              />
-            </div>
-          </div>
-          <!-- End Swiper Wrapper -->
-        </div>
-        <!-- End Swiper Clients -->
-      </div>
-      <!-- End Clients -->
     </div>
     <!-- End Work -->
-
-    <!-- Services -->
-    <div id="services">
-      <div class="bg-color-sky-light" data-auto-height="true">
-        <div class="content-lg container">
-          <div class="row margin-b-40">
-            <div class="col-sm-6">
-              <h2>Services</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                tempor incididunt ut laboret dolore magna aliqua enim minim
-                veniam exercitation
-              </p>
-            </div>
-          </div>
-          <!--// end row -->
-
-          <div class="row row-space-1 margin-b-2">
-            <div class="col-sm-4 sm-margin-b-2">
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-chemistry"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Company Formation</h3>
-                  <p class="margin-b-5">
-                    Lorem ipsum dolor amet consectetur ut consequat siad
-                    esqudiat dolor
-                  </p>
-                </div>
-                <a href="#" class="content-wrapper-link"></a>
-              </div>
-            </div>
-            <div class="col-sm-4 sm-margin-b-2">
-              <div class="service bg-color-base" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon color-white icon-screen-tablet"></i>
-                </div>
-                <div class="service-info">
-                  <h3 class="color-white">Stuff Management</h3>
-                  <p class="color-white margin-b-5">
-                    Lorem ipsum dolor amet consectetur ut consequat siad
-                    esqudiat dolor
-                  </p>
-                </div>
-                <a href="#" class="content-wrapper-link"></a>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-badge"></i>
-                </div>
-                <div class="service-info">
-                  <h3>KPI Optimization</h3>
-                  <p class="margin-b-5">
-                    Lorem ipsum dolor amet consectetur ut consequat siad
-                    esqudiat dolor
-                  </p>
-                </div>
-                <a href="#" class="content-wrapper-link"></a>
-              </div>
-            </div>
-          </div>
-          <!--// end row -->
-
-          <div class="row row-space-1">
-            <div class="col-sm-4 sm-margin-b-2">
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-notebook"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Information Security</h3>
-                  <p class="margin-b-5">
-                    Lorem ipsum dolor amet consectetur ut consequat siad
-                    esqudiat dolor
-                  </p>
-                </div>
-                <a href="#" class="content-wrapper-link"></a>
-              </div>
-            </div>
-            <div class="col-sm-4 sm-margin-b-2">
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-speedometer"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Recrutinment</h3>
-                  <p class="margin-b-5">
-                    Lorem ipsum dolor amet consectetur ut consequat siad
-                    esqudiat dolor
-                  </p>
-                </div>
-                <a href="#" class="content-wrapper-link"></a>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-badge"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Materials Supply</h3>
-                  <p class="margin-b-5">
-                    Lorem ipsum dolor amet consectetur ut consequat siad
-                    esqudiat dolor
-                  </p>
-                </div>
-                <a href="#" class="content-wrapper-link"></a>
-              </div>
-            </div>
-          </div>
-          <!--// end row -->
-        </div>
-      </div>
-    </div>
-    <!-- End Service -->
 
     <!-- Contact -->
     <div id="contact">
@@ -1212,24 +811,26 @@
         <div class="content-lg container">
           <div class="row">
             <!-- Contact List -->
-            <div class="col-sm-4 sm-margin-b-50">
+            <div class="col-sm-8 sm-margin-b-50">
               <h3>
-                <a href="http://ft-seo.ch/">Zurich</a>
+                <a href="">Reception</a>
                 <span class="text-uppercase margin-l-20">Human Resources</span>
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                tempor incdidunt ut laboret dolor magna ut consequat siad
-                esqudiat dolor
+                Contatta la nostra reception per avere informazioni riguarddo
+                alle vostre prenotazione, per fare una nuova prenotazione o
+                annullarne una gia fatta. La nostra reception sara sempre felice
+                che accogliervi e risolverti ogni dubbio, per sapere le attività
+                disponibili e lo stato del hotel
               </p>
               <ul class="list-unstyled contact-list">
                 <li>
-                  <i class="margin-r-10 color-base icon-call-out"></i> +41 60 66
-                  555 44 33
+                  <i class="margin-r-10 color-base icon-call-out"></i> +0461
+                  346854
                 </li>
                 <li>
                   <i class="margin-r-10 color-base icon-envelope"></i>
-                  hr@flameonepage.com
+                  reception@hotel-meano.com
                 </li>
               </ul>
             </div>
@@ -1238,46 +839,22 @@
             <!-- Contact List -->
             <div class="col-sm-4 sm-margin-b-50">
               <h3>
-                <a href="http://ft-seo.ch/">Malta</a>
-                <span class="text-uppercase margin-l-20">Development</span>
+                <a href="">Uffici</a>
+                <span class="text-uppercase margin-l-20">Human Resources</span>
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                tempor incdidunt ut laboret dolor magna ut consequat siad
-                esqudiat dolor
+                Chiamaci per sapere lati più tecnici del hotel e varie
+                informazioni. Sempre a vostra disposizione 7 giorni alla
+                settimana
               </p>
               <ul class="list-unstyled contact-list">
                 <li>
-                  <i class="margin-r-10 color-base icon-call-out"></i> +356 7965
-                  1257
+                  <i class="margin-r-10 color-base icon-call-out"></i> +0461
+                  327986
                 </li>
                 <li>
                   <i class="margin-r-10 color-base icon-envelope"></i>
-                  developmemt@flameonepage.com
-                </li>
-              </ul>
-            </div>
-            <!-- End Contact List -->
-
-            <!-- Contact List -->
-            <div class="col-sm-4 sm-margin-b-50">
-              <h3>
-                <a href="http://ft-seo.ch/">Manchester</a>
-                <span class="text-uppercase margin-l-20">CEO</span>
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                tempor incdidunt ut laboret dolor magna ut consequat siad
-                esqudiat dolor
-              </p>
-              <ul class="list-unstyled contact-list">
-                <li>
-                  <i class="margin-r-10 color-base icon-call-out"></i> +44 654
-                  583 5518
-                </li>
-                <li>
-                  <i class="margin-r-10 color-base icon-envelope"></i>
-                  ceo@flameonepage.com
+                  uffici@hotel-meano.com
                 </li>
               </ul>
             </div>
@@ -1289,9 +866,9 @@
       <!-- End Contact List -->
 
       <!-- Google Map -->
-      <div class="map height-300">
+      <div id="mappa" class="map height-300">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.0694570748947!2d7.455080415208266!3d46.94067397914616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39d0cf20e8d1%3A0x9daac4cd3043d067!2sThunstrasse+50%2C+3005+Bern%2C+Switzerland!5e0!3m2!1sen!2sin!4v1496749852928"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d88508.28538058359!2d11.113251048735355!3d46.11322000936706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4782709ec3ed6239%3A0xdff5127af21aed5d!2s38121%20Meano%20TN!5e0!3m2!1sit!2sit!4v1621957909230!5m2!1sit!2sit"
           width="100%"
           height="100%"
           frameborder="0"
@@ -1309,42 +886,22 @@
       <div class="section-seperator">
         <div class="content-md container">
           <div class="row">
-            <div class="col-sm-2 sm-margin-b-30">
+            <div class="sm-margin-b-30">
               <!-- List -->
-              <ul class="list-unstyled footer-list">
+              <ul class="list-unstyled footer-list flex-row">
                 <li class="footer-list-item"><a href="#body">Home</a></li>
-                <li class="footer-list-item"><a href="#about">Team</a></li>
+                <li class="footer-list-item"><a href="#about">Attività</a></li>
                 <li class="footer-list-item">
-                  <a href="#work">Credentials</a>
+                  <a href="#work">Galleria</a>
                 </li>
-                <li class="footer-list-item"><a href="#contact">Contact</a></li>
-              </ul>
-              <!-- End List -->
-            </div>
-            <div class="col-sm-2 sm-margin-b-30">
-              <!-- List -->
-              <ul class="list-unstyled footer-list">
-                <li class="footer-list-item"><a href="#">Twitter</a></li>
-                <li class="footer-list-item"><a href="#">Facebook</a></li>
-                <li class="footer-list-item"><a href="#">Instagram</a></li>
-                <li class="footer-list-item"><a href="#">YouTube</a></li>
-              </ul>
-              <!-- End List -->
-            </div>
-            <div class="col-sm-3">
-              <!-- List -->
-              <ul class="list-unstyled footer-list">
                 <li class="footer-list-item">
-                  <a href="#">Subscribe to Our Newsletter</a>
-                </li>
-                <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
-                <li class="footer-list-item">
-                  <a href="#">Terms &amp; Conditions</a>
+                  <a href="#contact">Contatti</a>
                 </li>
               </ul>
               <!-- End List -->
             </div>
           </div>
+
           <!--// end row -->
         </div>
       </div>
@@ -1354,18 +911,12 @@
       <div class="content container">
         <div class="row">
           <div class="col-xs-6">
-            <img
-              class="footer-logo"
-              src="img/logo-dark.png"
-              alt="flameonepage Logo"
-            />
+            <div class="logo-footer">Hotel Meano</div>
           </div>
           <div class="col-xs-6 text-right">
             <p class="margin-b-0">
-              <a class="fweight-700" href="#">FlameOnePage</a> Theme Powered by:
-              <a class="fweight-700" href="http://ft-seo.ch/"
-                >FairTech Studio</a
-              >
+              <a class="fweight-700" href="#">Meano Hotel</a> Theme Powered by:
+              <a class="fweight-700" href="">Emanuele Zini</a>
             </p>
           </div>
         </div>
