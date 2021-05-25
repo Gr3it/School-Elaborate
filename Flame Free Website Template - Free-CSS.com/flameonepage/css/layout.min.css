@@ -838,12 +838,18 @@ fieldset[disabled] .btn-theme {
   background-repeat: no-repeat;
 }
 .carousel-indicators {
+  border-radius: 0.5rem;
+  background-color: #0004;
+  padding: 0.5rem;
   left: auto;
   width: auto;
-  padding-left: 0;
+  padding-bottom: 0rem;
   margin-left: 0;
 }
 .carousel-centered {
+  border-radius: 0.5rem;
+  background-color: #0008;
+  padding: 2rem;
   position: absolute;
   top: 50%;
   -webkit-transform: translate3d(0, -50%, 0);
