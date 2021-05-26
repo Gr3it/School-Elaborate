@@ -1,0 +1,429 @@
+.img-3d-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+
+  perspective: 2000px;
+  perspective-origin: 50% 70%;
+}
+
+.floor-container {
+  position: relative;
+  height: 310px;
+  width: 810px;
+  box-shadow: 0px 0px 10px #888888;
+
+  transform: rotate3d(1, 0, 0, 50deg);
+}
+
+.room {
+  position: absolute;
+  border-collapse: collapse;
+  border: 5px solid black;
+  height: 130px;
+}
+
+.corridor {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  border-collapse: collapse;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 60px;
+  width: 810px;
+}
+
+.stairs {
+  background-color: #008e9b;
+  position: absolute;
+  top: 0;
+  left: 475px;
+  border-collapse: collapse;
+  border-top: 5px solid black;
+  height: 130px;
+  width: 105px;
+}
+
+.elevator1 {
+  background-color: #ffc75f;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  height: 40px;
+  width: 40px;
+  border-collapse: collapse;
+  border: 5px solid black;
+}
+
+.elevator2 {
+  background-color: #ffc75f;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  height: 40px;
+  width: 40px;
+  border-collapse: collapse;
+  border: 5px solid black;
+}
+
+/* suite */
+
+.suite1 {
+  top: 0;
+  left: 0;
+  width: 240px;
+}
+
+.suite2 {
+  top: 0;
+  left: 235px;
+  width: 240px;
+}
+
+.suite3 {
+  top: 0;
+  left: 575px;
+  width: 235px;
+}
+
+.suite4 {
+  top: 180px;
+  left: 0;
+  width: 205px;
+}
+
+.suite5 {
+  top: 180px;
+  left: 200px;
+  width: 205px;
+}
+
+.suite6 {
+  top: 180px;
+  left: 400px;
+  width: 205px;
+}
+
+.suite7 {
+  top: 180px;
+  left: 600px;
+  width: 210px;
+}
+
+/* lusso */
+
+.lusso1 {
+  top: 0px;
+  left: 0px;
+  width: 125px;
+}
+.lusso2 {
+  top: 0px;
+  left: 120px;
+  width: 125px;
+}
+.lusso3 {
+  top: 0px;
+  left: 240px;
+  width: 120px;
+}
+.lusso4 {
+  top: 0px;
+  left: 355px;
+  width: 120px;
+}
+
+.lusso5 {
+  top: 0px;
+  left: 575px;
+  width: 115px;
+}
+
+.lusso6 {
+  top: 0px;
+  left: 685px;
+  width: 125px;
+}
+
+.lusso7 {
+  top: 180px;
+  left: 0px;
+  width: 120px;
+}
+
+.lusso8 {
+  top: 180px;
+  left: 115px;
+  width: 120px;
+}
+
+.lusso9 {
+  top: 180px;
+  left: 230px;
+  width: 120px;
+}
+
+.lusso10 {
+  top: 180px;
+  left: 345px;
+  width: 120px;
+}
+.lusso11 {
+  top: 180px;
+  left: 460px;
+  width: 120px;
+}
+.lusso12 {
+  top: 180px;
+  left: 575px;
+  width: 120px;
+}
+.lusso13 {
+  top: 180px;
+  left: 690px;
+  width: 120px;
+}
+
+/* basic */
+
+.basic1 {
+  top: 0px;
+  left: 0px;
+  width: 85px;
+}
+
+.basic2 {
+  top: 0px;
+  left: 80px;
+  width: 85px;
+}
+
+.basic3 {
+  top: 0px;
+  left: 160px;
+  width: 85px;
+}
+
+.basic4 {
+  top: 0px;
+  left: 240px;
+  width: 85px;
+}
+
+.basic5 {
+  top: 0px;
+  left: 320px;
+  width: 80px;
+}
+
+.basic6 {
+  top: 0px;
+  left: 395px;
+  width: 80px;
+}
+.basic7 {
+  top: 0px;
+  left: 575px;
+  width: 80px;
+}
+
+.basic8 {
+  top: 0px;
+  left: 650px;
+  width: 80px;
+}
+
+.basic9 {
+  top: 0px;
+  left: 725px;
+  width: 85px;
+}
+
+.basic10 {
+  top: 180px;
+  left: 0px;
+  width: 85px;
+}
+
+.basic11 {
+  top: 180px;
+  left: 80px;
+  width: 85px;
+}
+
+.basic12 {
+  top: 180px;
+  left: 160px;
+  width: 85px;
+}
+
+.basic13 {
+  top: 180px;
+  left: 240px;
+  width: 85px;
+}
+
+.basic14 {
+  top: 180px;
+  left: 320px;
+  width: 85px;
+}
+
+.basic15 {
+  top: 180px;
+  left: 400px;
+  width: 85px;
+}
+
+.basic16 {
+  top: 180px;
+  left: 480px;
+  width: 85px;
+}
+
+.basic17 {
+  top: 180px;
+  left: 560px;
+  width: 85px;
+}
+
+.basic18 {
+  top: 180px;
+  left: 640px;
+  width: 85px;
+  background-color: #845ec2;
+}
+
+.basic19 {
+  top: 180px;
+  left: 720px;
+  width: 90px;
+  background-color: #ff6f91;
+}
+
+/* floor */
+
+.floor2 {
+  margin-top: -7rem;
+}
+
+.floor3 {
+  margin-top: -5rem;
+}
+
+.suite1:hover,
+.suite2:hover,
+.suite3:hover,
+.suite4:hover,
+.suite5:hover,
+.suite6:hover,
+.suite7:hover,
+.lusso1:hover,
+.lusso2:hover,
+.lusso3:hover,
+.lusso4:hover,
+.lusso5:hover,
+.lusso6:hover,
+.lusso7:hover,
+.lusso8:hover,
+.lusso9:hover,
+.lusso10:hover,
+.lusso11:hover,
+.lusso12:hover,
+.lusso13:hover,
+.basic1:hover,
+.basic2:hover,
+.basic3:hover,
+.basic4:hover,
+.basic5:hover,
+.basic6:hover,
+.basic7:hover,
+.basic8:hover,
+.basic9:hover,
+.basic10:hover,
+.basic11:hover,
+.basic12:hover,
+.basic13:hover,
+.basic14:hover,
+.basic15:hover,
+.basic16:hover,
+.basic17:hover,
+.basic18:hover,
+.basic19:hover {
+  background-color: #0081cf;
+  cursor: pointer;
+}
+
+.img-3d-side {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+  right: 6rem;
+  transform: translate(calc(40vw - 30rem));
+}
+
+.img-3d-legend {
+  position: absolute;
+  padding: 1rem;
+  margin-top: 25px;
+  left: 6rem;
+  border: 5px solid black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0px 0px 10px #888888;
+  transform: translate(calc(-40vw + 30rem));
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.legend-row > h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.legend-square-elevator {
+  background-color: #ffc75f;
+  border: 5px solid black;
+  height: 25px;
+  width: 25px;
+}
+
+.legend-square-stairs {
+  background-color: #008e9b;
+  border: 5px solid black;
+  height: 25px;
+  width: 25px;
+}
+
+.legend-square-occupied {
+  background-color: #ff6f91;
+  border: 5px solid black;
+  height: 25px;
+  width: 25px;
+}
+
+.legend-square-available {
+  background-color: #fff;
+  border: 5px solid black;
+  height: 25px;
+  width: 25px;
+}
+
+.legend-square-selected {
+  background-color: #845ec2;
+  border: 5px solid black;
+  height: 25px;
+  width: 25px;
+}
