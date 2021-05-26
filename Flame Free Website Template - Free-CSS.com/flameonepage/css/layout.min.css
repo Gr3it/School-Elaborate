@@ -1340,6 +1340,26 @@ fieldset[disabled] .btn-theme {
   border-radius: 5px;
 }
 
+#special-active {
+  color: #fd871f;
+  background-color: #515769;
+  padding: 0 calc(5px + 0.5vw);
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
 #special:hover {
   background-color: #fd871f;
+}
+
+.min-height {
+  position: relative;
+  min-height: 932px;
+  width: 100%;
+}
+
+.min-height-absolute {
+  right: 50%;
+  transform: translate(50%);
+  position: absolute;
 }
