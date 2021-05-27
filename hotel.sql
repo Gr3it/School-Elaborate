@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Mag 26, 2021 alle 22:27
--- Versione del server: 10.4.18-MariaDB
--- Versione PHP: 8.0.3
+-- Creato il: Mag 27, 2021 alle 14:09
+-- Versione del server: 10.4.14-MariaDB
+-- Versione PHP: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,7 +31,7 @@ CREATE TABLE `camera` (
   `Nome_Camera` varchar(7) NOT NULL,
   `Numero_Posti` int(11) DEFAULT NULL,
   `Categoria` varchar(5) DEFAULT NULL,
-  `Costo_A_Notte` int(11) NOT NULL
+  `Costo_A_Notte` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -39,45 +39,45 @@ CREATE TABLE `camera` (
 --
 
 INSERT INTO `camera` (`Nome_Camera`, `Numero_Posti`, `Categoria`, `Costo_A_Notte`) VALUES
-('basic1', 2, 'basic', 85),
-('basic10', 2, 'basic', 85),
-('basic11', 2, 'basic', 85),
-('basic12', 2, 'basic', 85),
-('basic13', 2, 'basic', 85),
-('basic14', 2, 'basic', 85),
-('basic15', 2, 'basic', 85),
-('basic16', 2, 'basic', 85),
-('basic17', 2, 'basic', 85),
-('basic18', 2, 'basic', 85),
-('basic19', 2, 'basic', 85),
-('basic2', 2, 'basic', 85),
-('basic3', 2, 'basic', 85),
-('basic4', 2, 'basic', 85),
-('basic5', 2, 'basic', 85),
-('basic6', 2, 'basic', 85),
-('basic7', 2, 'basic', 85),
-('basic8', 2, 'basic', 85),
-('basic9', 2, 'basic', 85),
-('lusso1', 2, 'lusso', 105),
-('lusso10', 2, 'lusso', 105),
-('lusso11', 2, 'lusso', 105),
-('lusso12', 2, 'lusso', 105),
-('lusso13', 3, 'lusso', 105),
-('lusso2', 2, 'lusso', 105),
-('lusso3', 2, 'lusso', 105),
-('lusso4', 3, 'lusso', 105),
-('lusso5', 2, 'lusso', 105),
-('lusso6', 2, 'lusso', 105),
-('lusso7', 2, 'lusso', 105),
-('lusso8', 2, 'lusso', 105),
-('lusso9', 2, 'lusso', 105),
-('suite1', 3, 'suite', 150),
-('suite2', 3, 'suite', 150),
-('suite3', 3, 'suite', 150),
-('suite4', 2, 'suite', 150),
-('suite5', 2, 'suite', 150),
-('suite6', 2, 'suite', 150),
-('suite7', 2, 'suite', 150);
+('basic1', 2, 'basic', 84.99),
+('basic10', 2, 'basic', 84.99),
+('basic11', 2, 'basic', 84.99),
+('basic12', 2, 'basic', 84.99),
+('basic13', 2, 'basic', 84.99),
+('basic14', 2, 'basic', 84.99),
+('basic15', 2, 'basic', 84.99),
+('basic16', 2, 'basic', 84.99),
+('basic17', 2, 'basic', 84.99),
+('basic18', 2, 'basic', 84.99),
+('basic19', 2, 'basic', 84.99),
+('basic2', 2, 'basic', 84.99),
+('basic3', 2, 'basic', 84.99),
+('basic4', 2, 'basic', 84.99),
+('basic5', 2, 'basic', 84.99),
+('basic6', 2, 'basic', 84.99),
+('basic7', 2, 'basic', 84.99),
+('basic8', 2, 'basic', 84.99),
+('basic9', 2, 'basic', 84.99),
+('lusso1', 2, 'lusso', 104.99),
+('lusso10', 2, 'lusso', 104.99),
+('lusso11', 2, 'lusso', 104.99),
+('lusso12', 2, 'lusso', 104.99),
+('lusso13', 3, 'lusso', 104.99),
+('lusso2', 2, 'lusso', 104.99),
+('lusso3', 2, 'lusso', 104.99),
+('lusso4', 3, 'lusso', 104.99),
+('lusso5', 2, 'lusso', 104.99),
+('lusso6', 2, 'lusso', 104.99),
+('lusso7', 2, 'lusso', 104.99),
+('lusso8', 2, 'lusso', 104.99),
+('lusso9', 2, 'lusso', 104.99),
+('suite1', 3, 'suite', 149.99),
+('suite2', 3, 'suite', 149.99),
+('suite3', 3, 'suite', 149.99),
+('suite4', 2, 'suite', 149.99),
+('suite5', 2, 'suite', 149.99),
+('suite6', 2, 'suite', 149.99),
+('suite7', 2, 'suite', 149.99);
 
 -- --------------------------------------------------------
 
@@ -119,7 +119,7 @@ CREATE TABLE `prenotazione` (
 --
 
 INSERT INTO `prenotazione` (`Id_Prenotazione`, `Codice_Fiscale_Cliente`, `Data_Inizio_Prenotazione`, `Data_Fine_Prenotazione`, `Pagamento_Caparra`) VALUES
-(2, 'ZNIMNL02L09L378O', '2020-01-01', '2021-01-01', 1);
+(2, 'ZNIMNL02L09L378O', '2021-01-01', '2022-01-01', 1);
 
 -- --------------------------------------------------------
 

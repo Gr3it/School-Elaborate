@@ -1,4 +1,5 @@
 .img-3d-container {
+  margin-top: -3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -294,14 +295,12 @@
   top: 180px;
   left: 640px;
   width: 85px;
-  background-color: #845ec2;
 }
 
 .basic19 {
   top: 180px;
   left: 720px;
   width: 90px;
-  background-color: #ff6f91;
 }
 
 /* floor */
@@ -314,45 +313,7 @@
   margin-top: -5rem;
 }
 
-.suite1:hover,
-.suite2:hover,
-.suite3:hover,
-.suite4:hover,
-.suite5:hover,
-.suite6:hover,
-.suite7:hover,
-.lusso1:hover,
-.lusso2:hover,
-.lusso3:hover,
-.lusso4:hover,
-.lusso5:hover,
-.lusso6:hover,
-.lusso7:hover,
-.lusso8:hover,
-.lusso9:hover,
-.lusso10:hover,
-.lusso11:hover,
-.lusso12:hover,
-.lusso13:hover,
-.basic1:hover,
-.basic2:hover,
-.basic3:hover,
-.basic4:hover,
-.basic5:hover,
-.basic6:hover,
-.basic7:hover,
-.basic8:hover,
-.basic9:hover,
-.basic10:hover,
-.basic11:hover,
-.basic12:hover,
-.basic13:hover,
-.basic14:hover,
-.basic15:hover,
-.basic16:hover,
-.basic17:hover,
-.basic18:hover,
-.basic19:hover {
+.room:hover:not(.occupied) {
   background-color: #0081cf;
   cursor: pointer;
 }
@@ -363,7 +324,7 @@
   flex-direction: column;
   gap: 15rem;
   right: 6rem;
-  transform: translate(calc(40vw - 30rem));
+  transform: translate(calc(30vw - 10rem));
 }
 
 .img-3d-legend {
@@ -373,12 +334,12 @@
   left: 6rem;
   border: 5px solid black;
   height: 300px;
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   box-shadow: 0px 0px 10px #888888;
-  transform: translate(calc(-40vw + 30rem));
+  transform: translate(calc(-30vw + 10rem));
 }
 
 .legend-row {
@@ -426,4 +387,40 @@
   border: 5px solid black;
   height: 25px;
   width: 25px;
+}
+
+.occupied {
+  background-color: #ff6f91;
+  cursor: default;
+}
+
+.selected {
+  background-color: #845ec2;
+}
+
+@media (max-width: 1500px) {
+  .img-3d-container {
+    margin-top: -5rem;
+    margin-bottom: -15rem;
+    scale: 0.7;
+  }
+
+  .img-3d-legend {
+    position: absolute;
+    padding: 1rem;
+    margin-top: 25px;
+    left: 6rem;
+    border: 5px solid black;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px #888888;
+    transform: translate(-5rem, -45rem);
+  }
+
+  .img-3d-side {
+    display: none;
+  }
 }
