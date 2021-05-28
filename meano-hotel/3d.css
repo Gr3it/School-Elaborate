@@ -424,3 +424,41 @@
     display: none;
   }
 }
+
+.table-container {
+  width: 100%;
+  padding: 2rem;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th {
+  background-color: #fd871f;
+  color: #fff;
+}
+
+.table td,
+.table th {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.table * {
+  position: relative;
+}
+
+.table tbody:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.table tr:hover {
+  background-color: #bac0cc77;
+}
+
+#total-row {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
