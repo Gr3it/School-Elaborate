@@ -115,7 +115,12 @@ document.querySelector(".avanti3").addEventListener("click", function () {
 
         element.innerHTML +=
           "<tr><td>" +
-          element_name +
+          [
+            element_name[0].toUpperCase(),
+            element_name.slice(1, 5),
+            " n°",
+            element_name.slice(5),
+          ].join("") +
           "</td><td>" +
           data[0]["Numero_Posti"] +
           "</td><td><span>€ </span>" +
