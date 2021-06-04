@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T16:10:36.126Z" agent="5.0 (Windows)" etag="YRk1iuVpAw6QvQco4yM6" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T17:37:28.577Z" agent="5.0 (Windows)" etag="kQbEQBfq47bU-FJH2EXI" version="14.7.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2062" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="Fz4n1o0amy3hrtpJuVZ3-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=0" parent="1" source="Fz4n1o0amy3hrtpJuVZ3-44" target="Fz4n1o0amy3hrtpJuVZ3-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4iQPsjwBxcWjaHouiTpQ-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="Fz4n1o0amy3hrtpJuVZ3-44" target="4iQPsjwBxcWjaHouiTpQ-2">
+        <mxCell id="4iQPsjwBxcWjaHouiTpQ-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="Fz4n1o0amy3hrtpJuVZ3-44" target="4iQPsjwBxcWjaHouiTpQ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fz4n1o0amy3hrtpJuVZ3-44" value="Dipendente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;fontStyle=0;whiteSpace=wrap;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
         <mxCell id="Fz4n1o0amy3hrtpJuVZ3-64" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=2;fontStyle=0" parent="1" source="Fz4n1o0amy3hrtpJuVZ3-62" target="Fz4n1o0amy3hrtpJuVZ3-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4iQPsjwBxcWjaHouiTpQ-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="Fz4n1o0amy3hrtpJuVZ3-62" target="4iQPsjwBxcWjaHouiTpQ-4">
+        <mxCell id="4iQPsjwBxcWjaHouiTpQ-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="Fz4n1o0amy3hrtpJuVZ3-62" target="4iQPsjwBxcWjaHouiTpQ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fz4n1o0amy3hrtpJuVZ3-62" value="Alloggiante" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;fontStyle=0;whiteSpace=wrap;" parent="1" vertex="1">
@@ -73,10 +73,10 @@
         <mxCell id="Fz4n1o0amy3hrtpJuVZ3-65" value="Autenticazione" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="445" y="400" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4iQPsjwBxcWjaHouiTpQ-2" value="Acconto di spesa enxtra all&#39;alloggiante" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="4iQPsjwBxcWjaHouiTpQ-2" value="Acconto di spesa enxtra all&#39;alloggiante" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="190" y="340" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4iQPsjwBxcWjaHouiTpQ-4" value="Effettuaizone di una spesa extra" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="4iQPsjwBxcWjaHouiTpQ-4" value="Effettuazione di una spesa extra" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="190" y="540" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
