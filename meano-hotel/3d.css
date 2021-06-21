@@ -24,6 +24,18 @@
   border-collapse: collapse;
   border: 5px solid black;
   height: 130px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.room > * {
+  width: 4rem;
 }
 
 .corridor {
@@ -322,13 +334,13 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 15rem;
+  gap: 18rem;
   right: 6rem;
-  transform: translate(calc(30vw - 10rem));
+  transform: translate(calc(30vw - 10rem), 1rem);
 }
 
 .img-3d-legend {
-  position: absolute;
+  position: fixed;
   padding: 1rem;
   margin-top: 25px;
   left: 6rem;
@@ -402,7 +414,7 @@
   .img-3d-container {
     margin-top: -5rem;
     margin-bottom: -15rem;
-    scale: 0.7;
+    transform: scale(0.7);
   }
 
   .img-3d-legend {
@@ -461,4 +473,8 @@
 #total-row {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+}
+
+.fa-bed {
+  width: 2rem;
 }

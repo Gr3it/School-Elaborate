@@ -63,3 +63,27 @@
   width: 1.5rem;
   transform: translate(0, -1px), rotate(180deg);
 }
+
+.pop-up {
+  background-color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.pop-up-container {
+  z-index: 1100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0008;
+}
+
+.pop-up-active {
+  display: flex;
+}
