@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Prenotazioni</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+  <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/prenota.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script" />
+  <link rel="stylesheet" href="3d.css" />
+</head>
+
+<body id="body" class="body" data-spy="scroll" data-target=".header">
+  <header class="header navbar-fixed-top">
+    <nav class="navbar" role="navigation">
+      <div class="container">
+        <div class="menu-container js_nav-item">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="toggle-icon"></span>
+          </button>
+
+          <div class="logo">
+            <a class="logo-wrap" href="index.html#body">
+              <div class="logo-img logo-img-main">Hotel Meano</div>
+              <div class="logo-img logo-img-active">Hotel Meano</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <div class="menu-container">
+            <ul class="nav navbar-nav navbar-nav-right">
+              <!-- <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#body">Home</a>
+                </li> -->
+              <li class="js_nav-item nav-item">
+                <a class="nav-item-child nav-item-hover" href="index.html#about">Attività</a>
+              </li>
+              <li class="js_nav-item nav-item">
+                <a class="nav-item-child nav-item-hover" href="index.html#about2">Perche Noi</a>
+              </li>
+              <li class="js_nav-item nav-item">
+                <a class="nav-item-child nav-item-hover" href="index.html#products">Proposte</a>
+              </li>
+              <li class="js_nav-item nav-item">
+                <a class="nav-item-child nav-item-hover" href="index.html#pricing">Prezzi</a>
+              </li>
+              <li class="js_nav-item nav-item">
+                <a class="nav-item-child nav-item-hover" href="index.html#work">Galleria</a>
+              </li>
+              <li class="js_nav-item nav-item">
+                <a class="nav-item-child nav-item-hover" href="index.html#contact">Informazioni</a>
+              </li>
+              <li class="js_nav-item nav-item">
+                <a class="nav-item-child nav-item-hover" id="special-active" href="prenotazione.html">Prenota Ora</a>
+          </div>
+          </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="prenota-container">
+    <div class="contentlg container">
+      <dim action="" class="form-container">
+        <div class="formh1 form-header">
+          <h3>Selezionare le date di permanenza</h3>
+          <h3>1 / 4</h3>
+        </div>
+        <div class="formh2 form-header deactive">
+          <h3>Selezionare le camere</h3>
+          <h3>2 / 4</h3>
+        </div>
+        <div class="formh3 form-header deactive">
+          <h3>Inserire i propri dati</h3>
+          <h3>3 / 4</h3>
+        </div>
+        <div class="formh4 form-header deactive">
+          <h3>Totale costi</h3>
+          <h3>4 / 4</h3>
+        </div>
+
+        <div class="formb1">
+          <div class="form-content">
+            <h4>Data Arrivo:
+              <input type="date" id="arrivo" name="arrivo" required/>
+            </h4>
+            <h4>Data Partenza:
+              <input type="date" id="partenza" name="partenza" required/>
+            </h4>
+          </div>
+          <div class="prenota-button-container">
+            <div class="avanti1">
+              <h4 id="prenota-button" calss="prenota-button">Avanti
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"
+                  class="svg-inline--fa fa-angle-right fa-w-8 fa-2x">
+                  <g class="fa-group">
+                    <path fill="#fff8"
+                      d="M128.14 256l56.47 56.49L88.46 409a23.76 23.76 0 0 1-33.6.18l-.18-.18-22.51-22.68a23.92 23.92 0 0 1 0-33.84z"
+                      class="fa-secondary"></path>
+                    <path fill="#fff"
+                      d="M54.58 103.07L32 125.81a23.92 23.92 0 0 0 0 33.84L184.61 312.5 224 273l.06-.06a24 24 0 0 0-.16-33.94L88.37 103l-.17-.18a23.78 23.78 0 0 0-33.62.22z"
+                      class="fa-primary"></path>
+                  </g>
+                </svg>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="formb2 deactive">
+
+          <div class="form-content">
+            
+            <!-- 3d-hotel -->
+            <div class="img-3d-container">
+              <div class="floor-container floor1">
+                <div class="room suite1" onclick="clicked('suite1')">3 x </img><img src="img/widgets/bed.svg"></img></div>
+                <div class="room suite2" onclick="clicked('suite2')">3 x </img><img src="img/widgets/bed.svg"></div>
+                <div class="stairs">
+                  <div class="elevator1"></div>
+                  <div class="elevator2"></div>
+                </div>
+                <div class="room suite3" onclick="clicked('suite3')">3 x <img src="img/widgets/bed.svg"></div>
+                <div class="corridor"></div>
+                <div class="room suite4" onclick="clicked('suite4')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room suite5" onclick="clicked('suite5')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room suite6" onclick="clicked('suite6')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room suite7" onclick="clicked('suite7')">2 x <img src="img/widgets/bed.svg"></img></div>
+              </div>
+        
+              <div class="floor-container floor2">
+                <div class="room lusso1" onclick="clicked('lusso1')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso2" onclick="clicked('lusso2')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso3" onclick="clicked('lusso3')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso4" onclick="clicked('lusso4')">3 x </img><img src="img/widgets/bed.svg"></img></div>
+                <div class="stairs">
+                  <div class="elevator1"></div>
+                  <div class="elevator2"></div>
+                </div>
+                <div class="room lusso5" onclick="clicked('lusso5')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso6" onclick="clicked('lusso6')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="corridor"></div>
+                <div class="room lusso7" onclick="clicked('lusso7')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso8" onclick="clicked('lusso8')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso9" onclick="clicked('lusso9')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso10" onclick="clicked('lusso10')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso11" onclick="clicked('lusso11')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso12" onclick="clicked('lusso12')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room lusso13" onclick="clicked('lusso13')">3 x </img><img src="img/widgets/bed.svg"></img></div>
+              </div>
+        
+              <div class="floor-container floor3">
+                <div class="room basic1" onclick="clicked('basic1')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic2" onclick="clicked('basic2')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic3" onclick="clicked('basic3')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic4" onclick="clicked('basic4')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic5" onclick="clicked('basic5')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic6" onclick="clicked('basic6')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="stairs">
+                  <div class="elevator1"></div>
+                  <div class="elevator2"></div>
+                </div>
+                <div class="room basic7" onclick="clicked('basic7')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic8" onclick="clicked('basic8')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic9" onclick="clicked('basic9')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="corridor"></div>
+                <div class="room basic10" onclick="clicked('basic10')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic11" onclick="clicked('basic11')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic12" onclick="clicked('basic12')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic13" onclick="clicked('basic13')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic14" onclick="clicked('basic14')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic15" onclick="clicked('basic15')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic16" onclick="clicked('basic16')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic17" onclick="clicked('basic17')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic18" onclick="clicked('basic18')">2 x <img src="img/widgets/bed.svg"></img></div>
+                <div class="room basic19" onclick="clicked('basic19')">2 x <img src="img/widgets/bed.svg"></img></div>
+              </div>
+              <div class="img-3d-side">
+                <h1 class="floor-titled">Piano 3 - Suite</h1>
+                <h1 class="floor-titled">Piano 2 - Lusso</h1>
+                <h1 class="floor-titled">Piano 1 - Basic</h1>
+              </div>
+              <div class="img-3d-legend">
+                <div class="legend-row">
+                  <div class="legend-square-available"></div>
+                  <h3>Stanza disponibile</h3>
+                </div>
+                <div class="legend-row">
+                  <div class="legend-square-occupied"></div>
+                  <h3>Stanza non disponibile</h3>
+                </div>
+                <div class="legend-row">
+                  <div class="legend-square-selected"></div>
+                  <h3>Stanza selezionata</h3>
+                </div>
+                <div class="legend-row">
+                  <div class="legend-square-elevator"></div>
+                  <h3>Ascensori</h3>
+                </div>
+                <div class="legend-row">
+                  <div class="legend-square-stairs"></div>
+                  <h3>Scale</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- end 3d-hotel -->
+
+
+          </div>
+
+          <div class="prenota-button-container">
+            <div class="indietro2">
+              <h4 id="prenota-button" calss="prenota-button">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"
+                  class="svg-inline--fa fa-angle-left fa-w-8 fa-2x">
+                  <g class="fa-group">
+                    <path fill="#fff8"
+                      d="M223.83 352.44a24 24 0 0 1 0 33.86L201.32 409l-.18.18a23.76 23.76 0 0 1-33.6-.18l-96.15-96.5 56.47-56.5z"
+                      class="fa-secondary"></path>
+                    <path fill="#fff"
+                      d="M167.81 102.87l-.17.18L32.11 239a24 24 0 0 0-.17 33.93l.06.07 39.39 39.51L224 159.66a23.92 23.92 0 0 0 0-33.84l-22.54-22.74a23.77 23.77 0 0 0-33.62-.23z"
+                      class="fa-primary"></path>
+                  </g>
+                </svg>Indietro
+              </h4>
+            </div>
+            <div class="avanti2">
+              <h4 id="prenota-button" calss="prenota-button">Avanti
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"
+                  class="svg-inline--fa fa-angle-right fa-w-8 fa-2x">
+                  <g class="fa-group">
+                    <path fill="#fff8"
+                      d="M128.14 256l56.47 56.49L88.46 409a23.76 23.76 0 0 1-33.6.18l-.18-.18-22.51-22.68a23.92 23.92 0 0 1 0-33.84z"
+                      class="fa-secondary"></path>
+                    <path fill="#fff"
+                      d="M54.58 103.07L32 125.81a23.92 23.92 0 0 0 0 33.84L184.61 312.5 224 273l.06-.06a24 24 0 0 0-.16-33.94L88.37 103l-.17-.18a23.78 23.78 0 0 0-33.62.22z"
+                      class="fa-primary"></path>
+                  </g>
+                </svg>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="formb3 deactive">
+
+          <div class="form-content-vertical">
+            <h4>Nome:
+              <input type="text" id="nome" name="nome" required/>
+            </h4>
+            <h4>Cognome:
+              <input type="text" id="cognome" name="cognome" required/>
+            </h4>
+            <h4>Codice Fiscale:
+              <input type="text" id="codice_fiscale" name="codice_fiscale" required/>
+            </h4>
+            <h4>Email:
+              <input type="email" id="email" name="email" required/>
+            </h4>
+            <h4>Data di nascita:
+              <input type="date" id="data_di_nascita" name="data_di_nascita" required/>
+            </h4>
+          </div>
+
+          <div class="prenota-button-container">
+            <div class="indietro3">
+              <h4 id="prenota-button" calss="prenota-button">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"
+                  class="svg-inline--fa fa-angle-left fa-w-8 fa-2x">
+                  <g class="fa-group">
+                    <path fill="#fff8"
+                      d="M223.83 352.44a24 24 0 0 1 0 33.86L201.32 409l-.18.18a23.76 23.76 0 0 1-33.6-.18l-96.15-96.5 56.47-56.5z"
+                      class="fa-secondary"></path>
+                    <path fill="#fff"
+                      d="M167.81 102.87l-.17.18L32.11 239a24 24 0 0 0-.17 33.93l.06.07 39.39 39.51L224 159.66a23.92 23.92 0 0 0 0-33.84l-22.54-22.74a23.77 23.77 0 0 0-33.62-.23z"
+                      class="fa-primary"></path>
+                  </g>
+                </svg>Indietro
+              </h4>
+            </div>
+            <div class="avanti3">
+              <h4 id="prenota-button" calss="prenota-button">Avanti
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"
+                  class="svg-inline--fa fa-angle-right fa-w-8 fa-2x">
+                  <g class="fa-group">
+                    <path fill="#fff8"
+                      d="M128.14 256l56.47 56.49L88.46 409a23.76 23.76 0 0 1-33.6.18l-.18-.18-22.51-22.68a23.92 23.92 0 0 1 0-33.84z"
+                      class="fa-secondary"></path>
+                    <path fill="#fff"
+                      d="M54.58 103.07L32 125.81a23.92 23.92 0 0 0 0 33.84L184.61 312.5 224 273l.06-.06a24 24 0 0 0-.16-33.94L88.37 103l-.17-.18a23.78 23.78 0 0 0-33.62.22z"
+                      class="fa-primary"></path>
+                  </g>
+                </svg>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="formb4 deactive">
+
+          <div class="table-container">
+            <table class="table"></table>
+          </div>
+
+          <div class="prenota-button-container">
+            <div class="indietro4">
+              <h4 id="prenota-button" calss="prenota-button">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"
+                  class="svg-inline--fa fa-angle-left fa-w-8 fa-2x">
+                  <g class="fa-group">
+                    <path fill="#fff8"
+                      d="M223.83 352.44a24 24 0 0 1 0 33.86L201.32 409l-.18.18a23.76 23.76 0 0 1-33.6-.18l-96.15-96.5 56.47-56.5z"
+                      class="fa-secondary"></path>
+                    <path fill="#fff"
+                      d="M167.81 102.87l-.17.18L32.11 239a24 24 0 0 0-.17 33.93l.06.07 39.39 39.51L224 159.66a23.92 23.92 0 0 0 0-33.84l-22.54-22.74a23.77 23.77 0 0 0-33.62-.23z"
+                      class="fa-primary"></path>
+                  </g>
+                </svg>Indietro
+              </h4>
+            </div>
+            <div class="avanti4">
+              <h4 id="prenota-button" calss="prenota-button">Conferma Prenotazione
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"
+                  class="svg-inline--fa fa-angle-right fa-w-8 fa-2x">
+                  <g class="fa-group">
+                    <path fill="#fff8"
+                      d="M128.14 256l56.47 56.49L88.46 409a23.76 23.76 0 0 1-33.6.18l-.18-.18-22.51-22.68a23.92 23.92 0 0 1 0-33.84z"
+                      class="fa-secondary"></path>
+                    <path fill="#fff"
+                      d="M54.58 103.07L32 125.81a23.92 23.92 0 0 0 0 33.84L184.61 312.5 224 273l.06-.06a24 24 0 0 0-.16-33.94L88.37 103l-.17-.18a23.78 23.78 0 0 0-33.62.22z"
+                      class="fa-primary"></path>
+                  </g>
+                </svg>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="confirmation deactive">
+
+        </div>
+      </dim>
+    </div>
+  </div>
+
+  <div class="pop-up-container">
+    <div class="pop-up">
+      E' richiesto di completare <br>tutti i campi prima di procedere
+    </div>
+  </div>
+
+
+
+  <!-- Copyright -->
+  <div class="content container">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="logo-footer">Hotel Meano</div>
+      </div>
+      <div class="col-xs-6 text-right">
+        <p class="margin-b-0">
+          <a class="fweight-700" href="#">Meano Hotel</a> Theme Powered by:
+          <a class="fweight-700" href="">Emanuele Zini</a>
+        </p>
+      </div>
+    </div>
+    <!--// end row -->
+  </div>
+  <!-- End Copyright -->
+  </footer>
+  <!--========== END FOOTER ==========-->
+
+  <!-- Back To Top -->
+  <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+  <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+  <!-- CORE PLUGINS -->
+  <script src="vendor/jquery.min.js" type="text/javascript"></script>
+  <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+  <!-- PAGE LEVEL PLUGINS -->
+  <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+  <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+  <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+  <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+  <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+  <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+  <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+  <!-- PAGE LEVEL SCRIPTS -->
+  <script src="js/layout.min.js" type="text/javascript"></script>
+  <script src="js/components/wow.min.js" type="text/javascript"></script>
+  <script src="js/components/swiper.min.js" type="text/javascript"></script>
+  <script src="js/components/masonry.min.js" type="text/javascript"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/formjs.js" type="text/javascript"></script>
+
+</body>
+<!-- END BODY -->
+
+</html>

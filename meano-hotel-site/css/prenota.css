@@ -1,0 +1,89 @@
+.prenota-container {
+  padding-top: 113px;
+  min-height: calc(100vh - 122px);
+}
+
+.form-header {
+  width: 100%;
+  background-color: #fd871f;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.form-header > * {
+  color: white;
+  margin: 0 0 -5px 0;
+}
+
+.form-container {
+  padding-top: 5rem;
+}
+
+.deactive {
+  display: none;
+}
+
+.form-content {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-content-vertical {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.prenota-button-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-content: center;
+}
+.prenota-button-container > * > * {
+  cursor: pointer;
+  color: white;
+  background-color: #fd871f;
+  padding: 1rem 2rem 0.75rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-content: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.fa-angle-right {
+  width: 1.5rem;
+  transform: translate(0, -1px);
+}
+
+.fa-angle-left {
+  width: 1.5rem;
+  transform: translate(0, -1px), rotate(180deg);
+}
+
+.pop-up {
+  background-color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.pop-up-container {
+  z-index: 1100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0008;
+}
+
+.pop-up-active {
+  display: flex;
+}
